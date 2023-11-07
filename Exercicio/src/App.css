@@ -5,19 +5,35 @@
 
 .theme-switcher{
   background-color:blanchedalmond ;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
 }
 
 .theme-switcher.claro{
   background-color:rgb(107, 81, 47);
+  color: blanchedalmond;
 
 }
 
 h1{
   color: rgb(107, 81, 47);
   font-family: 'Times New Roman', Times, serif;
+  margin-left: 1rem;
 }
 
-h1.theme-switcher.claro{
-  color: blanchedalmond;
+button {
+  margin: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: blanchedalmond;
+  border-color: rgb(107, 81, 47);
+  margin-bottom: 2rem;
 }
+
+input {
+  margin-left: 1rem;
+}
+
